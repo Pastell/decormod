@@ -10,6 +10,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraft.item.Item;
 import net.minecraft.block.Block;
+import pastell.firstmod.client.FirstModTab;
 import pastell.firstmod.item.ItemBase;
 import pastell.firstmod.item.ModItems;
 import pastell.firstmod.proxy.CommonProxy;
@@ -21,6 +22,7 @@ public class FirstMod {
     public static final String modId = "firstmod";
     public static final String name = "First Mod";
     public static final String version = "1.0.0";
+    public static final FirstModTab creativeTab = new FirstModTab();
 
     @Mod.Instance(modId)
     public static FirstMod instance;

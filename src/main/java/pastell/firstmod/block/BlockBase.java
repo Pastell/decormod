@@ -18,6 +18,7 @@ public class BlockBase extends Block {
 
         setUnlocalizedName(name);
         setRegistryName(name);
+        setCreativeTab(FirstMod.creativeTab);
     }
 
     public void registerItemModel(Item itemBlock) {

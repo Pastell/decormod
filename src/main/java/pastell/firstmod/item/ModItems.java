@@ -6,9 +6,9 @@ import net.minecraft.creativetab.CreativeTabs;
 
 public class ModItems {
 
-    public static ItemBase ingotEperine = new ItemBase("ingot_eperine").setCreativeTab(CreativeTabs.MATERIALS);
+    public static ItemBase ingotEperine = new ItemBase("ingot_eperine");
     public static ItemHaySeed haySeed = new ItemHaySeed();
-    public static ItemBase hay = new ItemBase("hay").setCreativeTab(CreativeTabs.FOOD);
+    public static ItemBase hay = new ItemBase("hay");
 
     public static void register(IForgeRegistry<Item> registry) {
             registry.registerAll(

@@ -11,6 +11,7 @@ public class ItemHaySeed extends ItemSeeds {
         super(ModBlocks.cropHay, Blocks.FARMLAND);
         setUnlocalizedName("hay_seed");
         setRegistryName("hay_seed");
+        setCreativeTab(FirstMod.creativeTab);
     }
 
     public void registerItemModel() {
