@@ -9,10 +9,12 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraft.item.Item;
+import net.minecraft.block.Block;
 import pastell.firstmod.item.ItemBase;
 import pastell.firstmod.item.ModItems;
 import pastell.firstmod.proxy.CommonProxy;
 import pastell.firstmod.proxy.ClientProxy;
+import pastell.firstmod.block.ModBlocks;
 
 @Mod(modid = FirstMod.modId, name = FirstMod.name, version = FirstMod.version, acceptedMinecraftVersions = "[1.12.2]")
 public class FirstMod {
@@ -44,13 +46,20 @@ public class FirstMod {
     public static class RegistrationHandler {
 
         @SubscribeEvent
+        public static void registerBlocks(RegistryEvent.Register<Block> event) {
+            ModBlocks.register(event.getRegistry());
+        }
+
+        @SubscribeEvent
         public static void registerItems(RegistryEvent.Register<Item> event) {
                 ModItems.register(event.getRegistry());
+                ModBlocks.registerItemBlocks(event.getRegistry());
         }
 
         @SubscribeEvent
         public static void registerItems(ModelRegistryEvent event) {
                 ModItems.registerModels();
+                ModBlocks.registerModels();
         }
     }
 }
