@@ -1,12 +1,12 @@
 # Decor Mod (tentative title)
 A Minecraft mod for versions 1.12+ to add additional decorative blocks to Minecraft.
 
-##Content
+## Content
 - Hay, farmed with Hay Seed. Currently useless.
 - Eperine Ore, currently un-smeltable. Will eventually be smeltable into Eperine Ingot.
 - Eperine Ingot, in the future made from smelting Eperine Ore. Currently useless.
 
-##To-Do
+## To-Do
 - Make hay seeds drop from tall grass.
 - Make Eperine Ore smeltable.
 - Add Thatch block, crafted with hay.
