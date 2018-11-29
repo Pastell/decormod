@@ -1,48 +1,48 @@
 {
   "forge_marker": 1,
   "defaults": {
-    "model": "cross"
+    "model": "crop"
   },
   "variants": {
     "age": {
       "0": {
         "textures": {
-          "cross": "firstmod:blocks/hay/0"
+          "crop": "firstmod:blocks/hay/0"
         }
       },
       "1": {
         "textures": {
-          "cross": "firstmod:blocks/hay/1"
+          "crop": "firstmod:blocks/hay/1"
         }
       },
       "2": {
         "textures": {
-          "cross": "firstmod:blocks/hay/2"
+          "crop": "firstmod:blocks/hay/2"
         }
       },
       "3": {
         "textures": {
-          "cross": "firstmod:blocks/hay/3"
+          "crop": "firstmod:blocks/hay/3"
         }
       },
       "4": {
         "textures": {
-          "cross": "firstmod:blocks/hay/4"
+          "crop": "firstmod:blocks/hay/4"
         }
       },
       "5": {
         "textures": {
-          "cross": "firstmod:blocks/hay/5"
+          "crop": "firstmod:blocks/hay/5"
         }
       },
       "6": {
         "textures": {
-          "cross": "firstmod:blocks/hay/6"
+          "crop": "firstmod:blocks/hay/6"
         }
       },
       "7": {
         "textures": {
-          "cross": "firstmod:blocks/hay/7"
+          "crop": "firstmod:blocks/hay/7"
         }
       }
     }
