@@ -5,7 +5,7 @@ import net.minecraft.item.Item;
 import pastell.firstmod.FirstMod;
 import pastell.firstmod.item.ModItems;
 
-public class BlockCropHay extends BlockCrops{
+public class BlockCropHay extends BlockCrops    {
 
     public BlockCropHay() {
         setUnlocalizedName("crop_hay");

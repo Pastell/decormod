@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TS",
+    "ST"
+  ],
+  "key": {
+    "T": {
+      "item": "firstmod:hay"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "firstmod:block_thatch"
+  }
+}
