@@ -9,14 +9,15 @@ anything will work. At all. It is a dumb, bad mod. Seriously.
 - Hay, farmed with Hay Seed. Currently craftable into Thatch, but you can't get the seeds naturally.
 - Eperine Ore, smeltable into Eperine Ingot. Doesn't generate yet.
 - Eperine Ingot, made from smelting Eperine Ore. Currently useless.
+- Eperine Fibers, will replace Eperine Ingot.
+- Eperine Brick, made from clay and Eperine Fibers.
 - Thatch, directionally place-able block for rustic roofing.
-- Eperine Bricks, green-ish blue brick variant. Has carved and cracked variants. Currently uncraftable.
+- Eperine Bricks, green-ish blue brick variant, crafted from Eperine Brick. Has carved and cracked variants, which are uncraftable.
 
 ## To-Do
 - Make hay seeds drop from tall grass.
 - Make hay feedable to horses and cows.
 - Convert Eperine Ore into a Lapis Lazuli or Redstone like ore, dropping Eperine Fibers(Unimplemented) instead.
-- Add Eperine Clay, crafted from Eperine Fibers and Clay, smeltable into Eperine Bricks.
 - Make Eperine Brick decorative blocks.
 
 ## License
