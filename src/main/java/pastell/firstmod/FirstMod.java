@@ -16,6 +16,7 @@ import pastell.firstmod.item.ModItems;
 import pastell.firstmod.proxy.CommonProxy;
 import pastell.firstmod.proxy.ClientProxy;
 import pastell.firstmod.block.ModBlocks;
+import pastell.firstmod.recipe.ModRecipes;
 
 @Mod(modid = FirstMod.modId, name = FirstMod.name, version = FirstMod.version, acceptedMinecraftVersions = "[1.12.2]")
 public class FirstMod {
@@ -34,7 +35,7 @@ public class FirstMod {
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-
+        ModRecipes.init();
     }
 
     @Mod.EventHandler

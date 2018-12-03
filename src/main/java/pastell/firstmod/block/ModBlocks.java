@@ -9,7 +9,7 @@ import net.minecraftforge.registries.IForgeRegistry;
 
 public class ModBlocks {
 
-    public static BlockOre oreEperine = new BlockOre("ore_eperine");
+    public static BlockOre oreEperine = new BlockOre("ore_eperine", "oreCopper");
     public static BlockCropHay cropHay = new BlockCropHay();
     public static BlockThatch blockThatch = new BlockThatch();
 
