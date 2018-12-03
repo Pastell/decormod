@@ -12,8 +12,6 @@ anything will work. At all. It is a dumb, bad mod. Seriously.
 
 ## To-Do
 - Make hay seeds drop from tall grass.
-- Make Eperine Ore smeltable.
-- Add Thatch block, crafted with hay.
 - Make hay feedable to horses and cows.
 - Convert Eperine Ore into a Lapis Lazuli or Redstone like ore, dropping Eperine Fibers(Unimplemented) instead.
 - Add Eperine Clay, crafted from Eperine Fibers and Clay, smeltable into Eperine Bricks.
