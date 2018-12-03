@@ -8,8 +8,12 @@ item.ingot_eperine.name=Eperine Ingot
 item.hay_seed.name=Hay Seeds
 item.hay.name=Hay
 item.fibers_eperine.name=Eperine Fibers
+item.brick_eperine.name=Eperine Brick
 
 # Blocks
 
 tile.ore_eperine.name=Eperine Ore
 tile.block_thatch.name=Thatch
+tile.block_eperine_brick.name=Eperine Bricks
+tile.block_eperine_brick_carved.name=Carved Eperine Bricks
+tile.block_eperine_brick_cracked.name=Cracked Eperine Bricks

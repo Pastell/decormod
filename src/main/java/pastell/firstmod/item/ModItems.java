@@ -10,13 +10,15 @@ public class ModItems {
     public static ItemHaySeed haySeed = new ItemHaySeed();
     public static ItemOre hay = new ItemOre("hay", "cropHay");
     public static ItemOre fibersEperine = new ItemOre("fibers_eperine","fiberEperine");
+    public static ItemOre brickEperine = new ItemOre("brick_eperine","brickEperine");
 
     public static void register(IForgeRegistry<Item> registry) {
             registry.registerAll(
                     ingotEperine,
                     haySeed,
                     hay,
-                    fibersEperine
+                    fibersEperine,
+                    brickEperine
             );
     }
 
@@ -25,6 +27,7 @@ public class ModItems {
             hay.registerItemModel();
             haySeed.registerItemModel();
             fibersEperine.registerItemModel();
+            brickEperine.registerItemModel();
     }
 
 }
