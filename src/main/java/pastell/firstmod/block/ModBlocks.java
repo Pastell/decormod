@@ -9,22 +9,33 @@ import net.minecraftforge.registries.IForgeRegistry;
 
 public class ModBlocks {
 
-    public static BlockOre oreEperine = new BlockOre("ore_eperine", "oreCopper");
+    public static BlockOre oreEperine = new BlockOre("ore_eperine", "oreEperine");
     public static BlockCropHay cropHay = new BlockCropHay();
     public static BlockThatch blockThatch = new BlockThatch();
+    public static BlockBase blockEperineBrick = new BlockBase(Material.ROCK,"block_eperine_brick");
+    public static BlockBase blockEperineBrickCarved = new BlockBase(Material.ROCK,"block_eperine_brick_carved");
+    public static BlockBase blockEperineBrickCracked = new BlockBase(Material.ROCK,"block_eperine_brick_cracked");
+
 
     public static void register(IForgeRegistry<Block> registry) {
         registry.registerAll(
                 oreEperine,
                 cropHay,
-                blockThatch
+                blockThatch,
+                blockEperineBrick,
+                blockEperineBrickCarved,
+                blockEperineBrickCracked
+
         );
     }
 
     public static void registerItemBlocks(IForgeRegistry<Item> registry) {
         registry.registerAll(
                 oreEperine.createItemBlock(),
-                blockThatch.createItemBlock()
+                blockThatch.createItemBlock(),
+                blockEperineBrick.createItemBlock(),
+                blockEperineBrickCarved.createItemBlock(),
+                blockEperineBrickCracked.createItemBlock()
         );
 
     }
@@ -33,5 +44,8 @@ public class ModBlocks {
 
         oreEperine.registerItemModel(Item.getItemFromBlock(oreEperine));
         blockThatch.registerItemModel(Item.getItemFromBlock(blockThatch));
+        blockEperineBrick.registerItemModel(Item.getItemFromBlock(blockEperineBrick));
+        blockEperineBrickCarved.registerItemModel(Item.getItemFromBlock(blockEperineBrickCarved));
+        blockEperineBrickCracked.registerItemModel(Item.getItemFromBlock(blockEperineBrickCracked));
     }
 }
